@@ -28,6 +28,8 @@ const App = () => {
 
   const handleEdit = (emp) => {
     setEditingEmployee(emp);
+    console.log("hi");
+  
   };
 
   const handleDelete = async (id) => {
@@ -37,6 +39,7 @@ const App = () => {
 
   const handleCancel = () => {
     setEditingEmployee(null);
+    
   };
 
   return (
